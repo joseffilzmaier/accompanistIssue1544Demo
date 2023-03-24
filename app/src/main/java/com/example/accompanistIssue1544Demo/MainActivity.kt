@@ -109,9 +109,9 @@ internal fun MainNavigation(
                 title = { Text("Test") },
                 actions = {
                     if (currentDestination?.destination?.route == Screen.Second.route)
-                    IconButton(onClick = { secondNavController.navigate(0) }) {
-                        Icon(Icons.Default.Call, null)
-                    }
+                        IconButton(onClick = { secondNavController.navigate(0) }) {
+                            Icon(Icons.Default.Call, null)
+                        }
                 }
             )
         },
